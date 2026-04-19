@@ -1,0 +1,26 @@
+{
+  "overall_accuracy": 0.7842227378190255,
+  "classification_report": "                       precision    recall  f1-score   support\n\nPotato___Early_blight     0.8694    0.9650    0.9147       200\n Potato___Late_blight     0.9828    0.5700    0.7215       200\n     Potato___healthy     0.3333    1.0000    0.5000        31\n\n             accuracy                         0.7842       431\n            macro avg     0.7285    0.8450    0.7121       431\n         weighted avg     0.8834    0.7842    0.7952       431\n",
+  "confusion_matrix": [
+    [
+      193,
+      2,
+      5
+    ],
+    [
+      29,
+      114,
+      57
+    ],
+    [
+      0,
+      0,
+      31
+    ]
+  ],
+  "per_class_accuracy": {
+    "Potato___Early_blight": 0.965,
+    "Potato___Late_blight": 0.57,
+    "Potato___healthy": 1.0
+  }
+}
